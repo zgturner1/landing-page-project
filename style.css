@@ -142,10 +142,47 @@ button {
 
 .call-to-action {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 100px 150px 100px;
+}
+
+.call-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 60px 100px;
+    height: 80px;
+    width: 680px;
+}
+
+.call-text {
+    color: #E5E7EB;
+    font-weight: 80;
+    font-size: 16px;
+}
+
+.call-text-header {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.call-box button {
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
 }
 
 .footer {
     display: flex;
+    font-size: 16px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    color: #E5E7EB;
+    background-color: #1F2937;
 }
 
 

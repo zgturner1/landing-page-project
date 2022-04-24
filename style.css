@@ -4,24 +4,27 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Roboto, sans-serif;
+    padding: 0;
 }
 
 .header {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    padding: 24px 200px 100px 200px;
+    padding: 24px 250px 100px 250px;
     margin: 0;
+    gap: 100px;
 }
 
 .page-top {
     display: flex;
     justify-content: space-between;
-    color: #FAF8F9
 }
 
 .logo {
     font-size: 24px;
+    color: #FAF8F9;
+    font-weight: bold;
 }
 
 ul {
@@ -29,14 +32,53 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 10px;
+    gap: 14px;
 }
 
-a {
+a, .main-title-subtext {
     font-size: 18px;
     text-decoration: none;
     color: #E5E7EB;
 }
+
+.main-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-main-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.main-title {
+    font-size: 48px;
+    color: #FAF8F9;
+    font-weight: bold;
+}
+
+button {
+    background-color: #3882F6;
+    color: #FAF8F9;
+    width: 100px;
+    height: 28px;
+    border-radius: 7px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    width: 550px;
+    height: 200px;
+    background-color: gray;
+}
+
 
 
 
